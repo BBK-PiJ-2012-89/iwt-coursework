@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="exercise1.xsl"?>
+
+<!DOCTYPE nobel[
+<!ELEMENT award (author, title, year)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+]>
+
+<nobel>
+  <award>
+    <year>2012</year>
+    <author>Mo Yan</author>
+  </award>
+  <award>
+    <year>2011</year>
+    <author>Tomas Transtr&#246;mer</author>
+  </award>
+  <award>
+    <year>2010</year>
+    <author>Mario Vargas Llosa</author>
+  </award>
+  <award>
+    <year>2009</year>
+    <author>Herta M&#252;ller</author>
+  </award>
+  <award>
+    <year>2008</year>
+    <author>Jean-Marie Gustave Le Cl&#233;zio</author>
+  </award>
+  <award>
+    <year>2007</year>
+    <author>Doris Lessing</author>
+  </award>
+  <award>
+    <year>2006</year>
+    <author>Orhan Pamuk</author>
+  </award>
+  <award>
+    <year>2005</year>
+    <author>Harold Pinter</author>
+  </award>
+  <award>
+    <year>2004</year>
+    <author>Elfriede Jelinek</author>
+  </award>
+  <award>
+    <year>2003</year>
+    <author>J M Coetzee</author>
+  </award>
+  <award>
+    <year>2002</year>
+    <author>Imre Kert&#233;sz</author>
+  </award>
+  <award>
+    <year>2001</year>
+    <author>V S Naipaul</author>
+  </award>
+  <award>
+    <year>2000</year>
+    <author>Gao Xingjian</author>
+  </award>
+  <award>
+    <year>1999</year>
+    <author>G&#252;nter Grass</author>
+  </award>
+  <award>
+    <year>1998</year>
+    <author>Jos&#233; Saramago</author>
+  </award>
+  <award>
+    <year>1997</year>
+    <author>Dario Fo</author>
+  </award>
+  <award>
+    <year>1996</year>
+    <author>Wislawa Szymborska</author>
+  </award>
+  <award>
+    <year>1995</year>
+    <author>Seamus Heaney</author>
+  </award>
+  <award>
+    <year>1994</year>
+    <author>Kenzaburo Oe</author>
+  </award>
+  <award>
+    <year>1993</year>
+    <author>Toni Morrison</author>
+  </award>
+  <award>
+    <year>1992</year>
+    <author>Derek Walcott</author>
+  </award>
+  <award>
+    <year>1991</year>
+    <author>Nadine Gordimer</author>
+  </award>
+  <award>
+    <year>1990</year>
+    <author>Octavio Paz</author>
+  </award>
+  <award>
+    <year>1989</year>
+    <author>Camilo Jos&#233; Cela</author>
+  </award>
+  <award>
+    <year>1988</year>
+    <author>Naguib Mahfouz</author>
+  </award>
+  <award>
+    <year>1987</year>
+    <author>Joseph Brodsky</author>
+  </award>
+  <award>
+    <year>1986</year>
+    <author>Wole Soyinka</author>
+  </award>
+  <award>
+    <year>1985</year>
+    <author>Claude Simon</author>
+  </award>
+  <award>
+    <year>1984</year>
+    <author>Jaroslav Seifert</author>
+  </award>
+  <award>
+    <year>1983</year>
+    <author>William Golding</author>
+  </award>
+  <award>
+    <year>1982</year>
+    <author>Gabriel Garc&#237;a M&#225;rquez</author>
+  </award>
+  <award>
+    <year>1981</year>
+    <author>Elias Canetti</author>
+  </award>
+  <award>
+    <year>1980</year>
+    <author>Czeslaw Milosz</author>
+  </award>
+  <award>
+    <year>1979</year>
+    <author>Odysseus Elytis</author>
+  </award>
+  <award>
+    <year>1978</year>
+    <author>Isaac Bashevis Singer</author>
+  </award>
+  <award>
+    <year>1977</year>
+    <author>Vicente Aleixandre</author>
+  </award>
+  <award>
+    <year>1976</year>
+    <author>Saul Bellow</author>
+  </award>
+  <award>
+    <year>1975</year>
+    <author>Eugenio Montale</author>
+  </award>
+  <award>
+    <year>1974</year>
+    <author>Eyvind Johnson, Harry Martinson</author>
+  </award>
+  <award>
+    <year>1973</year>
+    <author>Patrick White</author>
+  </award>
+  <award>
+    <year>1972</year>
+    <author>Heinrich B&#246;ll</author>
+  </award>
+  <award>
+    <year>1971</year>
+    <author>Pablo Neruda</author>
+  </award>
+  <award>
+    <year>1970</year>
+    <author>Aleksandr Isaevich Solzhenitsyn</author>
+  </award>
+  <award>
+    <year>1969</year>
+    <author>Samuel Beckett</author>
+  </award>
+  <award>
+    <year>1968</year>
+    <author>Yasunari Kawabata</author>
+  </award>
+  <award>
+    <year>1967</year>
+    <author>Miguel Angel Asturias</author>
+  </award>
+  <award>
+    <year>1966</year>
+    <author>Shmuel Yosef Agnon, Nelly Sachs</author>
+  </award>
+  <award>
+    <year>1965</year>
+    <author>Michail Aleksandrovich Sholokhov</author>
+  </award>
+  <award>
+    <year>1964</year>
+    <author>Jean-Paul Sartre</author>
+  </award>
+  <award>
+    <year>1963</year>
+    <author>Giorgos Seferis</author>
+  </award>
+  <award>
+    <year>1962</year>
+    <author>John Steinbeck</author>
+  </award>
+  <award>
+    <year>1961</year>
+    <author>Ivo Andric</author>
+  </award>
+  <award>
+    <year>1960</year>
+    <author>Saint-John Perse</author>
+  </award>
+  <award>
+    <year>1959</year>
+    <author>Salvatore Quasimodo</author>
+  </award>
+  <award>
+    <year>1958</year>
+    <author>Boris Leonidovich Pasternak</author>
+  </award>
+  <award>
+    <year>1957</year>
+    <author>Albert Camus</author>
+  </award>
+  <award>
+    <year>1956</year>
+    <author>Juan Ram&#243;n Jim&#233;nez</author>
+  </award>
+  <award>
+    <year>1955</year>
+    <author>Halld&#243;r Kiljan Laxness</author>
+  </award>
+  <award>
+    <year>1954</year>
+    <author>Ernest Miller Hemingway</author>
+  </award>
+  <award>
+    <year>1953</year>
+    <author>Sir Winston Leonard Spencer Churchill</author>
+  </award>
+  <award>
+    <year>1952</year>
+    <author>Fran&#231;ois Mauriac</author>
+  </award>
+  <award>
+    <year>1951</year>
+    <author>P&#228;r Fabian Lagerkvist</author>
+  </award>
+  <award>
+    <year>1950</year>
+    <author>Earl (Bertrand Arthur William) Russell</author>
+  </award>
+  <award>
+    <year>1949</year>
+    <author>William Faulkner</author>
+  </award>
+  <award>
+    <year>1948</year>
+    <author>Thomas Stearns Eliot</author>
+  </award>
+  <award>
+    <year>1947</year>
+    <author>Andr&#233; Paul Guillaume Gide</author>
+  </award>
+  <award>
+    <year>1946</year>
+    <author>Hermann Hesse</author>
+  </award>
+  <award>
+    <year>1945</year>
+    <author>Gabriela Mistral</author>
+  </award>
+  <award>
+    <year>1944</year>
+    <author>Johannes Vilhelm Jensen</author>
+  </award>
+  <award>
+    <year>1943</year>
+    <author>The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1942</year>
+    <author>The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1941</year>
+    <author>The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1940</year>
+    <author>The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1939</year>
+    <author>Frans Eemil Sillanp&#228;&#228;</author>
+  </award>
+  <award>
+    <year>1938</year>
+    <author>Pearl Buck</author>
+  </award>
+  <award>
+    <year>1937</year>
+    <author>Roger Martin du Gard</author>
+  </award>
+  <award>
+    <year>1936</year>
+    <author>Eugene Gladstone O'Neill</author>
+  </award>
+  <award>
+    <year>1935</year>
+    <author>The prize money was with 1/3 allocated to the Main Fund and with 2/3 to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1934</year>
+    <author>Luigi Pirandello</author>
+  </award>
+  <award>
+    <year>1933</year>
+    <author>Ivan Alekseyevich Bunin</author>
+  </award>
+  <award>
+    <year>1932</year>
+    <author>John Galsworthy</author>
+  </award>
+  <award>
+    <year>1931</year>
+    <author>Erik Axel Karlfeldt</author>
+  </award>
+  <award>
+    <year>1930</year>
+    <author>Sinclair Lewis</author>
+  </award>
+  <award>
+    <year>1929</year>
+    <author>Thomas Mann</author>
+  </award>
+  <award>
+    <year>1928</year>
+    <author>Sigrid Undset</author>
+  </award>
+  <award>
+    <year>1927</year>
+    <author>Henri Bergson</author>
+  </award>
+  <award>
+    <year>1926</year>
+    <author>Grazia Deledda</author>
+  </award>
+  <award>
+    <year>1925</year>
+    <author>George Bernard Shaw</author>
+  </award>
+  <award>
+    <year>1924</year>
+    <author>Wladyslaw Stanislaw Reymont</author>
+  </award>
+  <award>
+    <year>1923</year>
+    <author>William Butler Yeats</author>
+  </award>
+  <award>
+    <year>1922</year>
+    <author>Jacinto Benavente</author>
+  </award>
+  <award>
+    <year>1921</year>
+    <author>Anatole France</author>
+  </award>
+  <award>
+    <year>1920</year>
+    <author>Knut Pedersen Hamsun</author>
+  </award>
+  <award>
+    <year>1919</year>
+    <author>Carl Friedrich Georg Spitteler</author>
+  </award>
+  <award>
+    <year>1918</year>
+    <author>The prize money was allocated to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1917</year>
+    <author>Karl Adolph Gjellerup, Henrik Pontoppidan</author>
+  </award>
+  <award>
+    <year>1916</year>
+    <author>Carl Gustaf Verner von Heidenstam</author>
+  </award>
+  <award>
+    <year>1915</year>
+    <author>Romain Rolland</author>
+  </award>
+  <award>
+    <year>1914</year>
+    <author>The prize money was allocated to the Special Fund of this prize section</author>
+  </award>
+  <award>
+    <year>1913</year>
+    <author>Rabindranath Tagore</author>
+  </award>
+  <award>
+    <year>1912</year>
+    <author>Gerhart Johann Robert Hauptmann</author>
+  </award>
+  <award>
+    <year>1911</year>
+    <author>Count Maurice (Mooris) Polidore Marie Bernhard Maeterlinck</author>
+  </award>
+  <award>
+    <year>1910</year>
+    <author>Paul Johann Ludwig Heyse</author>
+  </award>
+  <award>
+    <year>1909</year>
+    <author>Selma Ottilia Lovisa Lagerl&#246;f</author>
+  </award>
+  <award>
+    <year>1908</year>
+    <author>Rudolf Christoph Eucken</author>
+  </award>
+  <award>
+    <year>1907</year>
+    <author>Rudyard Kipling</author>
+  </award>
+  <award>
+    <year>1906</year>
+    <author>Giosu&#232; Carducci</author>
+  </award>
+  <award>
+    <year>1905</year>
+    <author>Henryk Sienkiewicz</author>
+  </award>
+  <award>
+    <year>1904</year>
+    <author>Fr&#233;d&#233;ric Mistral, Jos&#233; Echegaray Y Eizaguirre</author>
+  </award>
+  <award>
+    <year>1903</year>
+    <author>Bj&#248;rnstjerne Martinus Bj&#248;rnson</author>
+  </award>
+  <award>
+    <year>1902</year>
+    <author>Christian Matthias Theodor Mommsen</author>
+  </award>
+  <award>
+    <year>1901</year>
+    <author>Sully Prudhomme</author>
+  </award>
+</nobel>
