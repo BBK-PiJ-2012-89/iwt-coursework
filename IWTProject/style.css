@@ -6,3 +6,33 @@ body{
 	font-family:Verdana;
 	background-color:#555;
 }
+h2 {
+	text-align: center;
+	font-family: Arial;
+	text-decoration: underline;
+	color: grey;
+}
+body {
+	color: #6699CC;
+	font-family: "MS Serif", "New York", serif;
+	background-color: #FFFFF3;
+	width:auto;
+}
+#tableArea {
+	text-align: center;
+	width:500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#elementArea {
+	table-layout: auto;
+	text-align: center;
+	font-size: 24px;
+	text-decoration: underline;
+}
+button {
+	background-image: url('darkSquare.jpg');
+	width: 50px;
+	height: 50px;
+	border: 0
+}
